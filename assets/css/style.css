@@ -128,7 +128,7 @@ hr {
     padding-left:20px;
     padding-right: 20px;
     margin-top: 20px;
-    margin-right: 80px;
+    margin-right: 50px;
     margin-left: 20px;
     margin-bottom: 290px;
     border: 1px color #dddddd;
@@ -142,36 +142,33 @@ hr {
     padding-right: 20px;
     margin-top: 20px;
     margin-right: 20px;
-    margin-left: 80px;
+    margin-left: 20px;
     margin-bottom: 5px;
     border: 1px color #dddddd;
     background: #ffffff;
     
 } 
-.portfolio-wraper {
-    _display: flex;
+.portfolio-wrapper {
+    display: flex;
     flex-wrap: wrap;
     width: 620px;
     padding-left:20px;
     padding-right: 20px;
     margin-top: 20px;
     margin-right: 20px;
-    margin-left: 80px;
+    margin-left: -10px;
     margin-bottom: 5px;
     border: 1px color #dddddd;
     background: #ffffff;
 } 
 .portfolio-box1 {
-    _display: flex;
-    _flex-direction: row ;
-   _justify-content: space-around;
-    flex-wrap: wrap;
+    _flex-wrap: wrap;
     width: 160px;
     padding-left:20px;
     padding-right: 20px;
     margin-top: 20px;
     margin-right: 20px;
-    margin-left: 80px;
+    margin-left: 20px;
     margin-bottom: 5px;
 
 } 
