@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Alfredo</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 
@@ -38,7 +44,17 @@ input[type=submit]:hover {
 </head>
 <body>
 
-<h3>Contact Form</h3>
+     <nav class="nav">
+        <div class=name-placeholder>
+            <div><h1>Alfredo Castillo</h1></div>
+        </div>
+         <div class=link-wrapper>
+             <div><a href="./index.html"> about </a> </div>
+             <div><a href="./portfolio.html"> portfolio </a></div>
+             <div><a href="./contact.html"> contact</a></div>
+            </div>        
+      </nav>
+
 
 <div class="container">
   <form action="/action_page.php">
@@ -60,7 +76,15 @@ input[type=submit]:hover {
 
     <input type="submit" value="Submit">
   </form>
-</div>
 
+  <section class="side-bar"> 
+        <h2>Connect with Me</h2>
+        <hr>
+        <a href="https://github.com/alfcastillo"> <img id="icon-image" src="./assets/images/if_github_square_black_107109.png" alt="Git Hub"></a>
+        <a href="https://www.linkedin.com/in/castilloalfredo/"> <img id="icon-image" src="./assets/images/if_linkedin_386655.png" alt="Linkenin"> </a>
+        <a href="https://stackoverflow.com/users/9319198/alfredo-castillo"> <img id="icon-image" src="./assets/images/if_stackoverflow_273179.png" alt="Stac kOverflow"></a>
+    </section>
+</div>
+<footer>copyright2018 Alfredo Castillo</footer>
 </body>
 </html>
