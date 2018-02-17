@@ -11,7 +11,6 @@ body {
 
 div{
     padding: 10px;
-    _background: rgb(0, 217, 255);
   }
 .nav {
     display: flex;
@@ -19,7 +18,6 @@ div{
 }
 .name-placeholder{
     display: flex;
-    _border: 1px solid rgb(37, 147, 155);
     background: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -40,8 +38,6 @@ div{
 .link-wrapper{
     display: flex;
     color: #777777;
-    _border: 1px solid blue;
-    _background: rgb(0, 217, 255);
   }
   
 a{
@@ -175,7 +171,6 @@ hr {
 
 footer {
     background: #666666;
-    _float: initial;
     padding: 10px 0;
     margin: 0px;
     margin-bottom: 20px;
